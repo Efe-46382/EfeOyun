@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reaction Time Game</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  <h1>Reaction Time Game</h1>
+  <p>Choose a level and click "Start"</p>
+
+  <div class="controls">
+    <select id="level">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+      <option value="extreme">Extreme</option>
+      <option value="impossible">Impossible</option>
+    </select>
+    <button id="startButton">Start</button>
+  </div>
+
+  <h2>Your time: <span id="time">0.000</span> seconds</h2>
+
+  <div id="shape"></div>
+
+  <script src="Script.js"></script>
+</body>
+</html>
